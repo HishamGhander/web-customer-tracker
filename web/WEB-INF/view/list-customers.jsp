@@ -10,11 +10,12 @@
 <html>
 <head>
     <title>List Customers</title>
+    <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css"/>
 </head>
 <body>
 <div id="wrapper">
     <div id="header">
-        <h2>CRM - Customer Relationship Management</h2>
+        <h2 id="test">CRM - Customer Relationship Management</h2>
     </div>
 </div>
 

@@ -15,7 +15,7 @@
 <body>
 <div id="wrapper">
     <div id="header">
-        <h2 id="test">CRM - Customer Relationship Management</h2>
+        <h2>CRM - Customer Relationship Management</h2>
     </div>
 </div>
 

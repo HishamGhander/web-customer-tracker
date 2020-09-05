@@ -1,4 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%--
   Created by IntelliJ IDEA.
   User: Hesham
@@ -23,6 +24,10 @@
     <div id="content">
         <input type="button" class="add-button" onclick="window.location.href='showFormForAdd'; return false;"
                value="Add Customer"/>
+        <form:form method="get" action="search">
+            Search Customer: <input type="text" name="theSearchName"/>
+            <input type="submit" value="Search" class="add-button"/>
+        </form:form>
         <table>
             <tr>
                 <th>First Name</th>

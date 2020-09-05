@@ -33,8 +33,8 @@ http://www.springframework.org/schema/mvc ">
 		<property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
 		<property name="jdbcUrl"
 				  value="jdbc:mysql://localhost:3306/web_customer_tracker?useSSL=false"/>
-		<property name="user" value="SpringStudent"/>
-		<property name="password" value="SpringStudent"/>
+		<property name="user" value="dev"/>
+		<property name="password" value="SecurePortal"/>
 
 		<!-- these are connection pool properties for C3P0 -->
 		<property name="initialPoolSize" value="5"/>
